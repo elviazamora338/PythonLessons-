@@ -91,3 +91,10 @@ while index < 7:
     
 print("max grade for while loop = ", max)   
   
+index2 = 0
+while index2 < 7:
+    if grades[index2] == 20:
+        print("index for 20 =",index2)
+    
+    index2+=1
+
