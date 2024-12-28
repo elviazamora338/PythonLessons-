@@ -77,3 +77,17 @@ for x in range(7):
         min = grades[x]
 
         print("min grade = ", min)
+
+
+# while loop
+index = 0
+max = grades[index]
+while index < 7:
+    if grades[index] > max:
+        max = grades[index]
+
+    # index = index + 1
+    index+=1
+    
+print("max grade for while loop = ", max)   
+  
