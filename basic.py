@@ -71,4 +71,9 @@ for x in range(7):
         max = grades[x]
         print("max grade = ", max)
 
+min = grades[0]
+for x in range(7):
+    if grades[x] < min:
+        min = grades[x]
 
+        print("min grade = ", min)
