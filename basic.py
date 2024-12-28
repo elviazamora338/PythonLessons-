@@ -52,3 +52,23 @@ def subtraction(result):
     return result
 
 print(subtraction(myResult))
+
+
+#  arrays 
+grades = [100, 60, 80, 100, 20, 10, 90]
+
+#  by default 0
+for x in grades:
+    print(x)
+
+
+max = grades[0]
+# 60
+for x in range(7):  
+    # the current index in grades is greater than current max
+    if grades[x] > max:
+        # max = 70
+        max = grades[x]
+        print("max grade = ", max)
+
+
