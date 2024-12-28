@@ -15,3 +15,20 @@ def firstFunction(test):
 firstFunction("Lara")
 # work bitch
 print(num)
+
+#  1st approach
+def addition():
+    return num + num2
+
+print(addition())
+
+#  second approach
+myResult = 0.0
+
+def addition2(result):
+    result = num + num2
+    return result
+
+print(addition2(myResult))
+
+    
