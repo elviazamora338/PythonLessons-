@@ -98,3 +98,18 @@ while index2 < 7:
     
     index2+=1
 
+##########   QUESTION 1: ##########
+# make a for loop that goes through the array grades and finds grade 10
+# print the index that holds value 10 not the actual grade 10
+
+
+###########  QUESTION 2: ############
+# give me the average of the total grades 
+# either find a shortcut, create a function prior, or do avg = (addition of all grades)/(the total amount of grades)
+# MUST USE a for or while loop
+
+
+###########  QUESTION 3: #############
+# go through the array and print out a statment if at least one grade is repeated "there is one repeated grade"
+# else print "No repeated grades"
+# Use a while loop
