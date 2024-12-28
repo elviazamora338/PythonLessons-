@@ -31,4 +31,16 @@ def addition2(result):
 
 print(addition2(myResult))
 
-    
+# 1st way
+def subtraction():
+    return num - num2
+
+print(subtraction())
+
+# second way
+myResult = 0.0
+def subtraction(result):
+    result = num - num2
+    return result
+
+print(subtraction(myResult))
