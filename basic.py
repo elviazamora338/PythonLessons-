@@ -45,11 +45,10 @@ print(subtraction())
 myResult = 0.0
 def subtraction(result):
     if num > num2:
-        return num - num2
+        result = num - num2
     elif num < num2:
-        return num2 - num
-
-    result = num - num2
+        result = num2 - num
+    # will return whatever result becomes
     return result
 
 print(subtraction(myResult))
