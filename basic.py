@@ -33,7 +33,11 @@ print(addition2(myResult))
 
 # 1st way
 def subtraction():
-    return num - num2
+    if num > num2:
+        return num - num2
+    elif num < num2:
+        return num2 - num
+   
 
 print(subtraction())
 
