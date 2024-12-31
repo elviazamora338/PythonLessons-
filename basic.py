@@ -101,7 +101,10 @@ while index2 < 7:
 ##########   QUESTION 1: ##########
 # make a for loop that goes through the array grades and finds grade 10
 # print the index that holds value 10 not the actual grade 10
-
+for grade in grades:
+    if grade == 10:
+        print("grade 10 found")
+        
 
 ###########  QUESTION 2: ############
 # give me the average of the total grades 
