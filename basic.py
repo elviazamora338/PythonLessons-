@@ -101,6 +101,15 @@ while index2 < 7:
 ##########   QUESTION 1: ##########
 # make a for loop that goes through the array grades and finds grade 10
 # print the index that holds value 10 not the actual grade 10
+
+
+# COMMENTS: This code is redundant. You are using two for loops instead of using just one 
+# based on your code this is your logic that is having :: In the first loop, you are going through all the grades in the array, looking for the grade 10.
+# If a grade 10 is found, you print "grade 10 found".
+# Then, in the second loop once 10 is confirmed, you iterate over the grades array again using enumerate to find the index where the grade is 10.
+# you are going through the array again in the for loop when you already found 10.
+# the point of enumerate is that you don't need two for loop or need to do what we did prior. You are given the index and the value in the array at the same time
+# also the index+=1 is primarily used in while loops or special conditions. right now it is doing this 0,2,4,etc  
 for grade in grades:
     if grade == 10:
         print("grade 10 found")
