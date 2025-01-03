@@ -104,7 +104,14 @@ while index2 < 7:
 for grade in grades:
     if grade == 10:
         print("grade 10 found")
-        
+
+        for index, grade in enumerate(grades):
+            if grade == 10:
+                print("The index holding the value 10 is:",index)
+                break
+            index+=1
+
+
 
 ###########  QUESTION 2: ############
 # give me the average of the total grades 
