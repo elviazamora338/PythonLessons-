@@ -143,3 +143,13 @@ while index < len(grades):
 
 if not found_repeated:
      print("no repeated grades.")
+
+
+
+    # paper rock scissors game
+    # random number generator is the computer only 0,1,2 the randoly generrateed will be computer
+    # The user can input their decision but they will also be prompted the gane and if they want to play
+    # if they enter 0 that paper, 1 is rock, 2 is scissors
+    # if the user puts paper and the computer is rock then user wins, keep same logic throughtout other options
+    # same logic applies to computer and they will be prompted who the winner is and if they want to play again
+    
