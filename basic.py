@@ -110,15 +110,11 @@ while index2 < 7:
 # you are going through the array again in the for loop when you already found 10.
 # the point of enumerate is that you don't need two for loop or need to do what we did prior. You are given the index and the value in the array at the same time
 # also the index+=1 is primarily used in while loops or special conditions. right now it is doing this 0,2,4,etc  
-for grade in grades:
-    if grade == 10:
-        print("grade 10 found")
 
-        for index, grade in enumerate(grades):
-            if grade == 10:
-                print("The index holding the value 10 is:",index)
-                break
-            index+=1
+for index, grade in enumerate(grades):
+    if grade == 10:
+        print("The index holding the value 10 is:",index)
+        break
 
 
 
@@ -126,9 +122,24 @@ for grade in grades:
 # give me the average of the total grades 
 # either find a shortcut, create a function prior, or do avg = (addition of all grades)/(the total amount of grades)
 # MUST USE a for or while loop
-
+total = 0
+for grade in grades: 
+    total += grade
+average = total / len(grades)
+print ("average grade using for loop =", average)
 
 ###########  QUESTION 3: #############
 # go through the array and print out a statment if at least one grade is repeated "there is one repeated grade"
 # else print "No repeated grades"
 # Use a while loop
+index = 0
+found_repeated = False 
+while index < len(grades):
+    if grades[index] in grades[index + 1:]:
+        found_repeated = True
+        print('There is one repeated grade.')
+        break
+    index += 1
+
+if not found_repeated:
+     print("no repeated grades.")
