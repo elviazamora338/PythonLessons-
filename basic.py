@@ -185,3 +185,23 @@ if not found_repeated:
 #         cout << "*"
 #     }
 # }
+
+
+# int first = 0 # 1
+# int second = 1 # 1
+# int third = 2 # 2
+
+# #  to get the length of the array 
+# # 6
+# array.len()
+
+# while(third does not equal the length)
+#     {
+#         does the array[first] + array[second] = array[third] 
+#             YES
+#             # incrementing
+#             ++first # 1 second variable in the array
+#             ++second # 2 # third variable in the array
+#             ++ third # 3 
+
+#     }
