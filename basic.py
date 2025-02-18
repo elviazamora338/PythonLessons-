@@ -153,3 +153,35 @@ if not found_repeated:
     # if the user puts paper and the computer is rock then user wins, keep same logic throughtout other options
     # same logic applies to computer and they will be prompted who the winner is and if they want to play again
     
+
+
+    # Prime Number Check
+    # Write a function that checks whether a given number is prime.
+    # Prime numbers are natural numbers that are divisible by only 1 and the number itself. 
+    # In other words, prime numbers are positive integers greater than 1 with exactly two factors, 1 and the number itself. 
+    # Some of the prime numbers include 2, 3, 5, 7, 11, 13, etc.
+
+    # 
+
+
+    # make me this tree
+
+# *
+#  * 
+#   *
+#    *
+
+    # make this other tree
+    #       *       # 0 starts at column 3
+    #      * *      # 1 
+    #     * * *     # 2
+    #   * * * * *   # 3 
+
+
+#     for(int row = 0; i < 4; ++i)
+# {
+#     for(int col = 0; j < i; ++j)
+#     {
+#         cout << "*"
+#     }
+# }
